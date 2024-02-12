@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+.bb-3 {
+  border-bottom: 3px solid #f16126;
+}
+.wrapper {
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+}
+.form-group {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.form-group label{
+  font-weight: 600;
+}
+.form-control-text-box {
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 3px solid silver;
+  border-radius: 20px;
+  margin-left: 5px
+}
+.form-control-text-box:hover {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.form-control-text-box:focus {
+  border: none;
+  border-bottom: 3px solid #f16126;
+  color: #f16126;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+  justify-content: center;
+  flex: wrap;
+  margin-top: 20px;
+}
+
+.grid-item {
+  list-style-type: none;
+  border: none;
+  text-align: center;
+  background-color: #f16126;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.img{
+  background-color: #fff;
+}
+.grid-item img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.grid-item h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-bottom: 2px solid #f16126;
+
+}
+
+.grid-item p {
+  color: #fff;
+  font-weight: 600;
+  margin: 0;
+}
+.del {
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.delete {
+  z-index: 999;
+  color: #f16126;
+}

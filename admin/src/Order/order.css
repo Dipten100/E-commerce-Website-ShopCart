@@ -1,0 +1,33 @@
+.fail{
+    background: rgb(231, 13, 13);
+}
+.successsful{
+    background: rgb(5, 219, 5);
+}
+.select{
+    border-radius: 10px;
+}
+.select option{
+    background: white;
+}
+.tag-section{
+    border-bottom: 1px solid #f16126;
+}
+.tag,.tag-value{
+    font-size: 20px;
+    font-weight: 600;
+}
+.tag{
+    font-weight: 700;
+    padding-right: 3rem;
+}
+.tag-value{
+    color: #f16126;
+}
+.p-img{
+    height: 3rem;
+    width: auto;
+}
+.color-red{
+    color: red;
+}

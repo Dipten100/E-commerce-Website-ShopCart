@@ -1,0 +1,73 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+input[type="checkbox"]{
+  height: 13px;
+  width: 13px;
+  vertical-align: top;
+  position: relative;
+  bottom: -3px;
+}
+input{
+  transition: all .1s linear;
+  line-height: 19px;
+  color: #0f1111;
+}
+.a-spacing-medium{
+  margin-bottom: 16px!important;
+}
+.a-checkbox label{
+  position: relative;
+  font-weight: 400;
+  color: #0f1111;
+  padding-left: 15px;
+  text-indent: -15px;
+  margin-left: 3px;
+  top: -2px;
+  padding-bottom: 0;
+}
+label{
+  display: block;
+}
+.a-checkbox-label{
+  position: relative;
+    padding-left: 5px;
+    text-indent: 0;
+    display: inline-block;
+}
+.a-size-base {
+  font-size: 14px!important;
+  line-height: 20px!important;
+}
+.a-input-text,input[type=text]{
+  background-color: #fff;
+  line-height: normal;
+  outline: 0;
+}
+.address-ui-widgets-desktop-form-field-full-width {
+  width: 100%!important;
+  padding: auto;
+  margin-bottom: 30px;
+  border: 1px solid #f16126;
+}
+
+.show-address{
+  border: 2px solid rgba(0, 0, 0, 0.178);
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 5px;
+  display: block;
+  margin-bottom: 9px;
+}
+.show-address:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.on-select{
+  border: 2px solid #f16126;
+}

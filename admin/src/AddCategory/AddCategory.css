@@ -1,0 +1,19 @@
+.cat-name:hover,
+.cat-edit:hover,
+.cat-delete:hover {
+  cursor: pointer;
+  color: #ff6a00;
+}
+.cat-img {
+  height: auto;
+  width: 10%;
+  margin-right: 25px;
+}
+.cat-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+.preview {
+  height: auto;
+  width: 70%;
+}

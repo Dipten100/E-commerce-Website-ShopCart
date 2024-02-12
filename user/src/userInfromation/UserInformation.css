@@ -1,0 +1,32 @@
+.user-from {
+  border: 2px solid #ff5722;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.user-details {
+  display: flexbox;
+  position: relative;
+  margin: 20px;
+  padding: 10px;
+}
+.text-box-format {
+  border: 1px solid #ff5722;
+}
+.text-box-format:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.user-img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.update-btn {
+  text-align: center;
+}
+.update {
+  margin-right: 10px;
+  color: white;
+}

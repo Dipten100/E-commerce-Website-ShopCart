@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+.C-B-B{
+  color: black;
+  font-weight: 700;
+}
+.particularPage {
+  display: flex;
+  padding-top: 10%;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+::selection {
+  color: #fff;
+  background: #d43f8d;
+}
+.perticularPage-container {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 50px 35px 10px 35px;
+}
+.perticularPage-container header {
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0 0 30px 0;
+}
+.perticularPage-container .progressBar {
+  display: flex;
+  margin: 40px 0;
+  user-select: none;
+}
+.perticularPage-container .progressBar .step {
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+.perticularPage-container .progressBar .step p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ff5722;
+  margin-bottom: 8px;
+}
+.perticularPage-container .progressBar .step p .icon {
+  font-size: 32px;
+}
+.progressBar .step .bullet {
+  height: 25px;
+  width: 25px;
+  border: 2px solid #ff5722;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.2s;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+}
+.progressBar .step .bullet.active {
+  border-color: 	#268d4c;
+  background: 	#268d4c;
+}
+.progressBar .step .bullet span {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.progressBar .step .bullet.active span {
+  display: none;
+}
+.progressBar .step .bullet:before,
+.progressBar .step .bullet:after {
+  position: absolute;
+  content: "";
+  bottom: 11px;
+  right: -15.5vw;
+  height: 3px;
+  width: 15vw;
+  background: #ff5722;
+}
+.progressBar .step .bullet.active:after {
+  background: 	#198754;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 0.3s linear forwards;
+}
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+.progressBar .step:last-child .bullet:before,
+.progressBar .step:last-child .bullet:after {
+  display: none;
+}
+.progressBar .step p.active {
+  color: 	#268d4c;
+  transition: 0.2s linear;
+}
+.progressBar .step .check {
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  font-size: 15px;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.progressBar .step .check.active {
+  display: block;
+  color: #fff;
+}
